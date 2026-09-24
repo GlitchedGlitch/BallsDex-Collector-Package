@@ -294,7 +294,7 @@ class ChunkedCollectorSource(Source[str]):
     async def get_page(self, page_number: int) -> str:
         return self._pages[page_number]
 
-class CollectorCog(commands.GroupCog, name="Collector"):
+class CollectorCog(commands.GroupCog, name="Collector", group_name="collector"):
     """Collector commands - claim special versions of balls you've collected enough of."""
 
     def __init__(self, bot: "BallsDexBot"):
