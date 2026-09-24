@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Collector"
+version = "1.0.0"
+description = "Collector system package for BallsDex v3. Something something get enough of the same ball to get a special reward trust"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Glitch" }]
+readme = "README.md"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/GlitchedGlitch/Ultimate-Ballsdex-Library-Extensions"
+Package = "https://github.com/GlitchedGlitch/BallsDex-Collector-Package"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["collector*"]
