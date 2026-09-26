@@ -9,6 +9,7 @@ Add a collector system to your ballsdex bot! Supports multiple rewards and multi
 * /admin collector delete : Delete all collector requirements from a ball or a specific special requirement
 * /admin collector view : View collector requirements of a specific ball
 * /admin collector bulk : Add easily multiple requirements for multiple balls with multiple special rewards
+
 Every single admin command is available as a flag command (b.admin collector .. )
 ## How to install
 Add this to config/extra.toml (or create the file if it doesn't exist)
